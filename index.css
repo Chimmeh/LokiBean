@@ -1,0 +1,168 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+
+
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.banner {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border: 5px solid yellow;
+    position: relative;
+    top: 70px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+p {
+    font-size: 30px;
+}
+
+#bike {
+    height: 350x;
+    width: 400px;
+    border: 1px solid yellow;
+    border-radius: 50px;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.reasonsOne {
+    position: relative;
+    top: 70px;
+    width: 100%;
+    border: 2px solid yellow;
+    margin-bottom: 10px;
+
+}
+
+.reasonsTwo {
+    position: relative;
+    top: 45px;
+    width: 100%;
+    border: 2px solid yellow;
+
+}
+
+.reasonsThree {
+    position: relative;
+    top: 45px;
+    width: 100%;
+    border: 2px solid yellow;
+
+}
+
+.backgroundWhite {
+    background-color: white;
+    opacity: 70%;
+}
+
+.catground {
+
+    background-image: url(./images/catbackground.png);
+}
+
+.line li {
+    text-decoration: none;
+    display: inline;
+    margin: 0 auto;
+    padding: 10px 40px 10px 10px;
+}
+
+.block li {
+    display: block;
+    margin: 0 auto;
+    font-weight: 600;
+    text-decoration: none;
+    width: 50%;
+    color: black;
+    letter-spacing: 1px;
+    padding: 30px;
+    line-height: 30px;
+    font-size: 30px;
+}
+
+
+
+.center {
+    text-align: center;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+
+}
+
+li a {
+    font-size: 18px;
+
+}
+
+a:hover {
+    background-color: yellow;
+}
+
+.navigation {
+    text-decoration: none;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.gallery {
+    height: 300px;
+    width: 250px;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    border: solid 2px yellow;
+}
+
+.videoContainer {
+    background-color: blue;
+    padding-top: 50px;
+}
+
+video {
+    height: 600px;
+    width: 600px;
+}
+
+.down {
+    position: relative;
+    top: 20px;
+    padding: 5px;
+}
+
+footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+}
+
+footer p {
+    font-size: 16px;
+}
